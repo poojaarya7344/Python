@@ -1,0 +1,69 @@
+GIOM is an Order Management Web Application which provide AT&T users 
+to place their Orders to subscribe to various Services like 
+HSIA, voip, voLTE etc. 
+
+There are different modules in the Application : 
+1) Account Setup - Here the User can setup an account or Search for an 
+   Existing account. 
+
+Test Cases Involved here -- > 
+Positive Cases-- If User can easily search for his account or setup his account.
+Negative Cases-- If the information entered by user in account search screen is not being fetched from Database.
+		Or User is facing difficulties in setting up his account due to some error. 
+
+2) Order - Here the User is given the choice to create the Order. There are 
+Different Orders for Different Services. So User chooses what is required.
+
+Test case involved in this section
+--------------------------------
+
+Positive Cases -- USer is able to choose properly the type of the Order by selecting the proper radio button.
+	          The Order Number generated should begin with the year in which it is created like an order created in year 2019 should begin with 19xxxxxx.
+
+Negative Cases-- Radio buttons are not selectable . Or if user is choosing a particular radio button and some other order is getting processed. 
+		 Order number created is not of 8 characters . or not beginning with the year in which it is created.
+ 
+
+3) Open - This option is used when user needs to open an already existing Order/Cart. 
+
+Test cases involved in this Section 
+-------------------------
+
+Positive Cases -- User is entering a proper Order number which is of 8 chararcters and is Numeric eg Order Number 19087890 Or it could be old orders also created in 
+previous years but the length of the Order number should be 8 characters only. 
+
+Negagtive Cases-- User is not entering anything and clicking on search or user is not entering a proper 8 characters order number. 
+
+4) Project Management -- This Section is for Developers use and not accesible to users or testers.
+5) Inventory -- Here the Entire Inventory of the Order can be viewed 
+
+Test Cases Involved here 
+------------------------------
+
+Positive Cases -- As the Order Number is Entered the Inventory of the order should be displayed like what is the type of the order and the Service it provides.
+The customer details are mentioned properly etc .
+
+Negative Cases -- No output is coming when clicked on search button. or Inventory of some other Order is being displayed.
+
+
+6) Help -- This contains the Online Training material. 
+7)Admin Tools -- This contains the Database update tools for Developers and 
+not accessible to Users. 
+8) Upload -- This is for uploading the Sheet/Excel Files.
+
+Test Cases Involved here 
+----------------------
+
+Positive Cases-- Sheets are uploading properly . User can properly select the file to upload. and User can click on Browse button to choose the file to upload
+Negative Cases-- Sheets are not getting uploaded .  
+
+GIOM is an Order Management Web Application which provide AT&T users 
+to place their Orders to subscribe to various Services like 
+HSIA, voip, voLTE etc.Users are given access to various modules like account setup,Order Section,Inventory Section etc
+where they can choose the type of Order as per the  needs of the customer for whom they are placing the orders. 
+
+
+
+
+
+ 
