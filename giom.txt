@@ -1,4 +1,4 @@
-GIOM is an Order Management Web Application which provide AT&T users 
+GIOM is an Order Management Web Application which provide AT&T users (this is my project)
 to place their Orders to subscribe to various Services like 
 HSIA, voip, voLTE etc. 
 
